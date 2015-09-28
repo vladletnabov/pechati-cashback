@@ -1,0 +1,42 @@
+.reveal-modal-bg { position: fixed; height: 100%;width: 100%;background: url(../images/bg-black.png) repeat; z-index: 9998;display: none;top: 0;left: 0; }
+.reveal-modal {visibility: hidden; top: 50px; left: 50%; margin-left: -255px; position: absolute; z-index: 9999; background: #fff; width:380px; padding:65px; box-shadow:0 0 10px 3px gray;}
+.reveal-modal.small {width: 200px; margin-left: -140px;}
+.reveal-modal.medium {width: 400px; margin-left: -240px;}
+.reveal-modal.large {width: 600px; margin-left: -340px;}
+.reveal-modal.xlarge {width: 800px; margin-left: -440px;}
+.reveal-modal .close-reveal-modal {position: absolute; top: 12px; right: 12px; cursor: pointer; background: url(../images/close.png) no-repeat; width: 39px; height: 39px;} 
+.reveal-modal .close-reveal-modal:hover {opacity:0.9;}
+
+/*Форма заказать звонок*/
+.modal-form-call {background: #fff; width:320px; padding:25px; box-shadow: inset 1px 1px 15px 1px #D3D3D3; -moz-box-shadow: inset 1px 1px 15px 1px #D3D3D3; -webkit-box-shadow: inset 1px 1px 15px 1px #D3D3D3; margin: 0 auto 20px auto; position: relative;}
+.modal-form-call h2 {font: 400 22px 'Ubuntu', sans-serif; margin:0 0 15px 0; line-height:28px; text-align:center;}
+.modal-form-call input[type=text] {width:87%; height:42px; padding:0 20px; border: 1px solid #DCDCDC; color:#6a6a6a; font: 300 18px 'Ubuntu', sans-serif; margin:0 0 13px 0;}
+.modal-form-call textarea {width:87%; height:42px; padding:10px 20px; border: 1px solid #DCDCDC; color:#6a6a6a; font: 300 18px 'Ubuntu', sans-serif; margin:0 0 13px 0; resize: none;}
+.modal-form-call button {background: none; outline:0; width: 100%; display: block; cursor: pointer; color:#f40e43; font: 19px 'Roboto Slab', serif; text-decoration: none; border: 3px solid #F40E43; float:left; padding: 12px 9px;}
+.modal-form-call button:hover {background: #f40e43; color:#fff;}
+.modal-form-call .form-note {font: 300 16px 'Ubuntu', sans-serif; margin: 105px 0 -65px;}
+.modal-form-call .form-note span {color:#f40e43; font-size:18px;}
+
+
+
+#thanks {text-align:center;}
+#thanks h2 {font: 400 24px 'Ubuntu', sans-serif;}
+#thanks p {color: #393939; font: 300 18px 'Ubuntu', sans-serif;}
+
+
+/*
+	
+NOTES
+
+Close button entity is &#215;
+
+Example markup
+
+<div id="myModal" class="reveal-modal">
+	<h2>Awesome. I have it.</h2>
+	<p class="lead">Your couch.  I it's mine.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+	<a class="close-reveal-modal">&#215;</a>
+</div>
+
+*/

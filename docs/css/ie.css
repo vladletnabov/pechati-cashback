@@ -1,0 +1,21 @@
+* {margin:0; padding:0;}
+
+input[type=text] {line-height:30px !important;}
+
+#preloader {background: #fff;}
+.navbar-main,
+.why-we-main {border-bottom: 1px solid #9d9d9d;}
+.form-block-main,
+.form-block-main-2,
+.price-main {border: 1px solid #9d9d9d; border-width:1px 0 1px 0;}
+
+.header h1,
+.header h2,
+.block-left h4,
+.block-left p,
+.block-right h4,
+.block-right p {}
+
+
+
+
