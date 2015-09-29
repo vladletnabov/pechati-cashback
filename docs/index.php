@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Печати и штампы</title>
+	<title>Печати и штампы в Красногорске</title>
 	<meta charset="utf-8">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -97,7 +97,7 @@
 		<div id="ya-phone-1" style="text-decoration:none; color:#f40e43; font-size: 3em;text-align:center;">8(495) 532-70-49</a></div>
 		<div class="header full" style="margin-top:-60px;">
 			<a class="logo" href="/"><img src="images/logo.png" alt="" width="264" height="38"></a>
-			<div style="position: relative; color: #434748; margin-left:0px; font-size:2em; margin-left: -30px;">
+			<!--<div style="position: relative; color: #434748; margin-left:0px; font-size:2em; margin-left: -30px; height: 100px; height: 100px;">
 				<h3 style="color:#000">Изготовим печати для Вас:</h3>
 				<ul>
 					<li style="list-style-type:none;">Выгодно</li>
@@ -111,12 +111,13 @@
 					
 				</ul>
 			
-			</div>
+			</div>-->
+			<div style="height:165px;"></div>
 			
 			
-			<!--<h1>Печати и штампы<br/> <span>с доставкой по Москве</span></h1>
-			<div class="description">Быстрое изготовление и доставка<br/> к вам в офис в день обращения</div>-->
-			<a class="btn-order animated fadeIn" data-reveal-id="modOrder" href="#" style="margin-top:30px; margin-left: -30px;">Заказать печати прямо сейчас</a>
+			<h1>Печати и штампы<br/> <span>с доставкой в Красногорске</span></h1>
+			<div class="description">Быстрое изготовление и доставка<br/> к вам в офис в день обращения</div>
+			<a class="btn-order animated fadeIn" data-reveal-id="modOrder" href="#" style="margin-top:-70px; margin-left: 0px;">Заказать печати прямо сейчас</a>
 		</div>
 		
 	</div>
@@ -360,7 +361,7 @@
 			 
 			 <div class="contact-info right">
 				<p>Позвоните нам:</p>
-				<div class="phone">+7 (495) 987-65-43</div>
+				<div class="phone">+7 (495) 532-70-49</div>
 				<p>С 9:00 до 20:00 без выходных</p>
 			 </div>
 		</div>

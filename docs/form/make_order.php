@@ -61,7 +61,7 @@ $ip = getRealIpAddr();
 $message = "$title<br/>$name<br/>$phone<br/>$email<br/>$address<br/>$area<br/>$messages<br/>$type<br/>$osnastka<br/>$total<br/><br/>Со страницы: ".
 $_SERVER['HTTP_REFERER']."<br/>IP: $ip<br/>Браузер: ".$_SERVER['HTTP_USER_AGENT']."<br/>";
 
-$mail = new multipartmail("vadim@pechati.ru", "Новая заявка на \"Изготовление печати\"");
+$mail = new multipartmail("bgv@pechati.ru", "Новая заявка на \"Изготовление печати\"");
 if ($uploadfile != "uploads/") {$cid = $mail->addattachment($uploadfile, "octet-stream");}
 $mail->addmessage($message);
 $mail->sendmail();

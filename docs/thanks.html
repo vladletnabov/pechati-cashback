@@ -73,7 +73,7 @@
 			 
 			 <div class="contact-info right">
 				<p>Позвоните нам:</p>
-				<div class="phone">+7 (495) 987-65-43</div>
+				<div class="phone">+7 (495) 532-70-49</div>
 				<p>С 9:00 до 20:00 без выходных</p>
 			 </div>
 		</div>

